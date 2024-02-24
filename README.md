@@ -2,7 +2,7 @@
 
 Group project for the Introduction to Reinforcement Learning course, taken in the 3rd year at the Faculty of Mathematics and Computer Science, University of Bucharest.
 
-The project implements in Unity a reinforcement learning agent for a game similar to Flappy Bird. Given that for each run of the game, the environment would be procedurally generated, the agent was trained using an on-policy algorithm, namely the **PPO (Proximal Policy Optimization) algorithm**. The project makes use of multiple elements from the **ML-Agents** Unity package, including the "Ray Perception Sensor 2D" component, which, through the help of multiple rays drawn from the agent, takes in observations about the environment, such as: the space available for moving, obstacles, the space between pipes that increases the agent's score.
+The project implements in Unity a reinforcement learning agent for a game similar to Flappy Bird. Given that for each run of the game, the environment would be procedurally generated, the agent was trained using an **on-policy algorithm**, namely the **PPO (Proximal Policy Optimization) algorithm**. The project makes use of multiple components from the **ML-Agents** Unity package, such as: **Behavior Parameters**, **Decision Requester**, **Circle Collider 2D**, **Ray Perception Sensor 2D component** (through the help of multiple rays drawn from the agent, this component takes in observations about the environment, such as the space available for moving, obstacles, and the space between pipes that increases the agent's score).
 
 In order to reward the agent, 0.1 points were given to it for every second it survived, and in order to penalize it, 1 point was substracted each time it hit an obstacle.
 
