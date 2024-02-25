@@ -1,0 +1,29 @@
+{
+    "BirdBehavior": {
+        "checkpoints": [
+            {
+                "steps": 464375,
+                "file_path": "results\\BirdBehavior3\\BirdBehavior\\BirdBehavior-464375.onnx",
+                "reward": 15.600000858306885,
+                "creation_time": 1674578448.0453055,
+                "auxillary_file_paths": [
+                    "results\\BirdBehavior3\\BirdBehavior\\BirdBehavior-464375.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 464375,
+            "file_path": "results\\BirdBehavior3\\BirdBehavior.onnx",
+            "reward": 15.600000858306885,
+            "creation_time": 1674578448.0453055,
+            "auxillary_file_paths": [
+                "results\\BirdBehavior3\\BirdBehavior\\BirdBehavior-464375.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

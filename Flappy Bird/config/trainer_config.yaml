@@ -1,0 +1,8 @@
+behaviors:
+    FlappyBird:
+        trainer_type: ppo
+        max_steps: 5.0e6
+        reward_signals:
+            extrinsic:
+                gamma: 0.99
+                strength: 1.0
